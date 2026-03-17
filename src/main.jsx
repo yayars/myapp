@@ -8,7 +8,11 @@ import Home from './pages/Home.jsx'
 import Sobre from './pages/Sobre.jsx'
 import Contato from './pages/Contato.jsx'
 
+
 import MainLayout from './layouts/MainLayout.jsx';
+import AuthLayout from './layouts/AuthLayout.jsx';
+import Login from './pages/Login.jsx';
+import Cadastro from './pages/Cadastro.jsx';
 
 
 
@@ -24,6 +28,15 @@ createRoot(document.getElementById('root')).render(
           <Route path='/sobre' element={<Sobre />} />
           <Route path='/contato' element={<Contato />} />
         </Route>
+
+        <Route element={<AuthLayout />}>
+          <Route path='login' element={<Login />} />
+          <Route path='cadastro' element={<Cadastro />} />
+
+        </Route>
+
+
+
 
       </Routes>
     </BrowserRouter>

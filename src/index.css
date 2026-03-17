@@ -1,1 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gravitas+One&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Lugrasimo&family=Metamorphous&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shojumaru&display=swap');
+
 @import 'tailwindcss';
+
+@theme {
+    --font-gravitas: "Gravitas One", serif;
+    --font-roboto: "Roboto", sans-serif;
+    --font-iosevka: "Iosevka Charon", monospace;
+    --font-playfair-display: "Playfair Display", serif;
+    --font-roboto-slab: "Roboto Slab", serif;
+    --font-abril-fatface: "Abril Fatface", serif;
+    --font-lugrasimo: "Lugrasimo", cursive;
+    --font-shojumaru: "Shojumaru", system-ui;
+    --font-metamorphous: "Metamorphous", serif;
+}
